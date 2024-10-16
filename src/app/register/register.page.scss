@@ -1,0 +1,53 @@
+
+// estilizando o header
+ion-toolbar {
+  --background: #3a86ff; // Cor de fundo da toolbar (header)
+  --color: white; // Cor do título no header
+}
+
+ion-title{
+  text-align: center;
+  margin-right: 50px;
+}
+
+// estilizar o Content
+form{
+  max-width: 390px;
+  display: flexbox;
+  margin: 15px 10px 5px 10px;
+  // padding: 5px;
+}
+
+ion-input {
+  color: #333; // Cor do texto de entrada
+  --border-radius: 8px;
+  margin-bottom: 15px;
+  // padding: 10px 70px 5px 20px;
+}
+
+ion-datetime{
+  margin-top: 10px;
+  padding: 10px 50px 5px 50px;
+}
+
+// Estiliza os botões
+ion-button {
+  --border-radius: 10px;
+  color: white; // Cor do texto do botão de login
+  margin: 30px 50px 20px 50px;
+  font-size: 16px;
+}
+
+//termo e condições
+.textTermo{
+  border: 1px solid red;
+  margin: 5px 90px 5px 30px;
+
+}
+
+ion-checkbox{
+  border: 1px solid red;
+  text-align: center;
+  margin: 5px 50px 5px 160px;
+  padding-left: 30px;
+}
